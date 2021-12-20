@@ -1,0 +1,16 @@
+﻿<Window x:Class="Lab_13.Options"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab_13"
+        mc:Ignorable="d"
+        Title="Настойки Матрици" Height="145" Width="231" Activated="Window_Activated" WindowStyle="None" WindowStartupLocation="CenterOwner">
+    <Grid>
+        <TextBox x:Name="newRow" HorizontalAlignment="Left" Margin="5,40,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="6,24,0,0" Text="Строки" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBox x:Name="newColumn" HorizontalAlignment="Left" Margin="6,87,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="7,71,0,0" Text="Столбцы" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <Button x:Name="Set" Content="Задать" HorizontalAlignment="Left" Margin="134,87,0,0" VerticalAlignment="Top" Width="71" Click="Set_Click"/>
+    </Grid>
+</Window>
